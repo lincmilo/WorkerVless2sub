@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取订阅器默认节点，/auto
 
-let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
+let mytoken= ['omg'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
@@ -10,10 +10,7 @@ let addresses = [
 ];
 
 // 设置优选地址api接口
-let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
-];
+let addressesapi = ['https://youyou-txt.pages.dev/7-26.txt?token=openopen1230',]
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
@@ -28,9 +25,7 @@ let addressesnotlsapi = [
 ];
 
 let DLS = 8;//速度下限
-let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
-];
+let addressescsv = ['https://youyou-txt.pages.dev/7-26cv.csv?token=openopen1230'];
 
 let subconverter = "subapi-loadbalancing.pages.dev"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
